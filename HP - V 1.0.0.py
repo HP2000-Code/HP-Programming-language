@@ -1,7 +1,4 @@
-# HP™ | 2026 - 1405 ©
-# زبان برنامه‌نویسی HP
-# نسخه 1.0.0
-# تولیدشده توسط حسین پ. | Hossein P. به وسیله پایتون | Python
+# HP™ Programming language | 2026 - 1405 © | Developed by Hossein P. & Mr. CG. | Powered by Python
 
 # imports
 import os
@@ -10,6 +7,8 @@ import math
 import platform
 import datetime
 import random
+
+v = "1.0.0" # نسخه
 
 # صفحه اصلی | منو
 print("▪︎ اپلیکیشن زبان برنامه‌نویسی HP ▪︎")
@@ -79,14 +78,11 @@ def khorouj():
     
 def ettelaat():
     print()
-    print(""" ▪︎ HP™ | 2026 - 1405 © ▪︎
-    ▪︎ زبان برنامه‌نویسی HP ▪︎
-    ▪︎ نسخه: 1.0.0 ▪
-    ▪︎ تولیدشده توسط: حسین پ. | Hossein P. به وسیله پایتون | Python ▪︎︎""")
+    print("HP™ Programming language", v, "| 2026 - 1405 © | Developed by Hossein P. & Mr. CG. | Powered by Python")
 
 def help():
     print()
-    print("""ابتدا در قسمت کُد دستور مورد نظر خود را وارد نمایید و سپس به درخواست دستور پاسخ بدهید تا نتیجه را دریافت نمایید""")
+    print("ابتدا در قسمت کُد دستور مورد نظر خود را وارد نمایید و سپس به درخواست دستور پاسخ بدهید تا نتیجه را دریافت نمایید")
     
 def sistem():
     print()
