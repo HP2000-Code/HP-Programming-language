@@ -1,4 +1,4 @@
-# 🔒 Security Policy
+# 🔒 SECURITY Policy
 ## Report security issues
 #### ‼️If you find a security issue, please do not publish it publicly in Issues!
 ### 📧 To report a security issue, contact us via this GMAIL: HP.SUPPORT.2026@gmail.com
