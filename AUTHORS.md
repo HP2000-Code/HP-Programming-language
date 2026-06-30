@@ -1,3 +1,3 @@
-# 👬 AUTHORS
+# 👬 AUTHORS 🧑🏻‍💻
 - **Hossein P.**
 - Mr. CG.
