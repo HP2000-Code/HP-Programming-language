@@ -1,0 +1,2 @@
+# 👨🏻‍🏫 USAGE
+**🧑🏻‍💻 First, to run the programming language file, you need to select the version file you want, and then download or copy it. In the next step, you need to run it in a programming environment that supports Python files (with the extension: .py), (such as: VS Code, Pydroid 3, Acode, etc.) and then, according to your desired command, code your code and run it to get the desired result. ‼️The HP programming language is an independent programming language that uses Python support and is powered by it...!**
