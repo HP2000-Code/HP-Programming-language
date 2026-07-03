@@ -10,7 +10,8 @@ import platform
 import datetime
 import random
 
-VERSION = "1.5.3"
+VERSION = "1.6.0"
+GMAIL_SUPPORT = ("HP.SUPPORT.2026@gmail.com")
 
 # ساخت پوشه ذخیره پروژه‌ها
 PROJECT_FOLDER = "HP_Projects"
@@ -53,6 +54,7 @@ dastour_chap = "چاپ"
 dastour_chap_2 = "نمایش"
 dastour_khorouj = "خروج"
 dastour_ettelaat = "اطلاعات"
+dastour_poshtibani = "پشتیبانی"
 dastour_zakhire = "ذخیره"
 dastour_list_zakhire = "لیست ذخیره"
 dastour_etelaat_zakhire = "اطلاعات ذخیره"
@@ -257,6 +259,8 @@ def execute_hp(code):
             moghayeseh(">=")
         elif line == dastour_koochaktar_mosavi:
             moghayeseh("<=")
+        elif line == dastour_poshtibani:
+            poshtibani()
         elif line == dastour_jam:
             jam()
         elif line == dastour_tafrigh:
@@ -531,6 +535,11 @@ def zaman():
     natijeh = datetime.datetime.now().time()
     print("▪︎ نتیجه: ", natijeh)
     
+def poshtibani():
+    print()
+    print("• در صورت مواجهه با هرگونه ایراد و اشکال در کارکرد زبان برنامه‌نویسی، و یا داشتن هرگونه نظر، پیشنهاد، انتقاد و یا هرصحبتی در رابطه با این مسائل، حتما به جیمیل پشتیبانی ما، به آدرس زیر ایمیل بزنید:")
+    print("▪︎", GMAIL_SUPPORT, "▪︎")
+            
 def moteghayyer():
     esm = input("نام متغیر: ")
     meghdar = input(
@@ -911,6 +920,8 @@ while True:
         break
     elif voroudi == dastour_ettelaat:
         ettelaat()
+    elif voroudi == dastour_poshtibani:
+        poshtibani()
     elif voroudi == dastour_zakhire:
         zakhireh()
     elif voroudi == dastour_list_zakhire:
